@@ -15,15 +15,15 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
-
+cd ~
 
 ==========
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+pwd
+/c/Users/Lily
 
 
 ==========
