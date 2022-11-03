@@ -17,6 +17,8 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
+Date
+Wed Nov  2 19:51:38 EDT 2022
 
 
 
@@ -25,7 +27,8 @@ What command did you use, and what was its output?
 
 What command did you use, and what was its output?
 ----------
-
+cal
+November 2022
 
 
 ==========
@@ -33,7 +36,9 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+ cd ~
+ pwd
+/c/Users/Lily
 
 
 ==========
@@ -41,7 +46,55 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+touch copy_to_backup.sh
+ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files lm4463@nyu.edu 026f0c88a89dc5cfac7717df40749d69be7b06a5d9ce8306f3bd1e6a789b2f22'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ copy_to_backup.sh./
+ filename.txt
+ google.html
+ hello.txt
+ lmunoz/
+ mtec-1003-lab-03/
+ mtec-1003-lab-03.tar.gz
+ mtec1003/
+ mtec1003-lab-02/
+ mtec1003-lab-02.zip
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ secret.tar.gz
+ stuff/
 
 
 ==========
