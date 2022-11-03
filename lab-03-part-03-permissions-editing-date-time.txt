@@ -185,3 +185,6 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+ls
+1.txt  2.txt  Test
+
