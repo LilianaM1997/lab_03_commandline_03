@@ -80,7 +80,7 @@ ls
 'Start Menu'@
  Templates@
  Videos/
- copy_to_backup.sh./
+ copy_to_backup.sh
  filename.txt
  google.html
  hello.txt
@@ -102,7 +102,8 @@ ls
 
 What command did you use to find the permissions?
 ----------
-
+ls -l copy_to_backup
+-rw-r--r-- 1 Lily 197121 0 Nov  2 20:31 copy_to_backup.sh
 
 
 ==========
@@ -110,7 +111,8 @@ What command did you use to find the permissions?
 
 What commands did you use to do this?  What was the output?
 ----------
-
+chmod u+x copy_to_backup.sh
+no output
 
 
 ==========
@@ -120,7 +122,8 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
+./copy_to_backup.sh
+no output
 
 
 ==========
@@ -128,7 +131,7 @@ What command did you use to try to execute the file?  What happens?
 
 What command did you use to do this?
 ----------
-
+nano copy_to_backup.sh
 
 
 ==========
@@ -140,7 +143,10 @@ c. print out "I'm done backing up"
 
 Write out the code in your file below...
 ----------
-
+#!/bin/sh
+mkdir backup
+cp *.txt backup
+echo I'm done backing up
 
 
 ==========
@@ -151,7 +157,9 @@ Write out the code in your file below...
 
 What commands did you use to do this?
 ----------
-
+mkdir Test
+cd Test
+touch 1.txt 2.txt 
 
 
 ==========
@@ -159,6 +167,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
+mv ~/copy_to_backup.sh Test
 
 
 
@@ -167,6 +176,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
+./copy_to_backup.sh
 
 
 
